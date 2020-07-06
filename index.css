@@ -29,7 +29,7 @@
 
 .section-intro {
     height: 820px;
-    background-image: url(img/img1.jpg);
+    background-image: url(img/IMG-4241.JPG);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,18 @@
 
 .section-intro2 {
     height: 820px;
-    background-image: url(img/img5.jpeg);
+    background-image: url(img/IMG-4239.JPG);
+    color:#ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro3 {
+    height: 820px;
+    background-image: url(img/IMG-4242.JPG);
     color:#ffffff;
     background-size: cover;
     display: flex;
@@ -70,13 +81,13 @@
     align-items: center;
 }
 
-.section-intro2 header {
+/* .section-intro2 header {
     display: flex;
     flex: 4;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .link-to-book-wrapper {
     flex: 1;
@@ -89,7 +100,20 @@
     padding: 50px 30px;
 }
 
-.link-to-book {
+.gallery-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.gallery-section img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+/* .link-to-book {
     color: #ffffff;
     display: block;
     border: 2px solid #ffffff;
@@ -100,7 +124,7 @@ a.link-to-book:hover {
     background-color: #ffffff;
     color: #95999e;
     text-decoration: none;
-}
+} */
 
 .about-section p,
 .about-section h3 {
@@ -170,9 +194,19 @@ a.link-to-book:hover {
         height: 500px;
     }
 
+    .section-intro3 {
+        height: 500px;
+    }
+
     .about-section p,
     .about-section h3 {
         font-size: 20px;
+    }
+
+    .gallery-section img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
     }
 
     .carousel-inner {
@@ -194,6 +228,10 @@ a.link-to-book:hover {
         height: 300px;
     }
 
+    .section-intro3 {
+        height: 300px;
+    }
+
     .about-section {
         padding: 30px;
     }
@@ -202,13 +240,19 @@ a.link-to-book:hover {
         font-size: 2em;
     }
 
-    .section-intro2 h1 {
+    /* .section-intro2 h1 {
         font-size: 2em;
-    }
+    } */
 
     .about-section p,
     .about-section h3 {
         font-size: 15px;
+    }
+
+    .gallery-section img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 5px;
     }
 
     .carousel-inner {
